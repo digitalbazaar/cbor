@@ -23,6 +23,7 @@
   "main": "lib/index.js",
   "module": "lib/main.js",
   "dependencies": {
+    "bignumber.js": "^9.0.1",
     "esm": "^3.2.25"
   },
   "devDependencies": {
@@ -61,9 +62,7 @@
     ]
   },
   "browser": {
-    "buffer": false,
-    "crypto": false,
-    "util": false
+    "./lib/util.js": "./lib/util-browser.js"
   },
   "engines": {
     "node": ">=12"
