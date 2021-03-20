@@ -23,6 +23,7 @@
   "main": "lib/index.js",
   "module": "lib/main.js",
   "dependencies": {
+    "base64url-universal": "^1.1.0",
     "bignumber.js": "^9.0.1",
     "esm": "^3.2.25"
   },
@@ -62,7 +63,9 @@
     ]
   },
   "browser": {
-    "./lib/util.js": "./lib/util-browser.js"
+    "./lib/base64.js": "./lib/base64-browser.js",
+    "./lib/hex.js": "./lib/hex-browser.js",
+    "./lib/inspect.js": "./lib/inspect-browser.js"
   },
   "engines": {
     "node": ">=12"
