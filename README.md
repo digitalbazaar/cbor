@@ -68,4 +68,5 @@ Digital Bazaar: support@digitalbazaar.com
 
 ## License
 
-[New BSD License (3-clause)](LICENSE) © Digital Bazaar
+- Forked files: [MIT License](LICENSE) © Joe Hildebrand
+- New files: [New BSD License (3-clause)](LICENSE) © Digital Bazaar
