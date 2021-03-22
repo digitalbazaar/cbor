@@ -53,7 +53,28 @@ describe('CBOR', () => {
         // encode
         const cborBytes = base64.decode(t.cbor);
         const encodedCbor = encode(t.decoded);
-        expect(cborBytes).to.equalBytes(encodedCbor);
+        // disable some tests due to round trip issues
+        // difficult to force the input data into a specific form for encoding
+        /* eslint-disable-next-line max-len */
+        // https://github.com/hildjj/node-cbor/blob/main/packages/cbor/test/test-vectors.ava.js
+        // https://github.com/cbor/test-vectors/issues/3
+        if([
+          '1bffffffffffffffff', // 18446744073709551615
+          '3bffffffffffffffff', // -18446744073709551616
+          'f90000', // 0.0
+          'f90001', // 5.960464477539063e-08
+          'f90400', // 6.103515625e-05
+          'f93c00', // 1.0
+          'f93e00', // 1.5
+          'f97bff', // 65504.0
+          'f9c400', // -4.0
+          'fa47c35000' // 100000.0
+        ].includes(t.hex)) {
+          // expect failure to know when behavior changed
+          expect(cborBytes).to.not.equalBytes(encodedCbor);
+        } else {
+          expect(cborBytes).to.equalBytes(encodedCbor);
+        }
       });
     });
   });
