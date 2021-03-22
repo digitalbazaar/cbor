@@ -1,6 +1,6 @@
 # @digitalbazaar/cbor Changelog
 
-## 1.0.1 - 2020-03-xx
+## 1.0.1 - 2020-03-22
 
 ### Fixed
 - Accept regular arrays as input to BufferStream.
