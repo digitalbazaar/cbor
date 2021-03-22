@@ -73,6 +73,8 @@ describe('CBOR', () => {
           'Invalid map length',
           'Invalid two-byte encoding of simple value',
           // FIXME
+          '"parentBufferStream" not implemented.',
+          // FIXME
           //'NoFilter is not defined'
           'Unexpected data'
         ].join('|'), 'g'));
