@@ -8,8 +8,8 @@ chai.use(chaiBytes);
 const {expect} = chai;
 
 import {encode, decode} from '..';
-import tvPass from './test-vectors-pass.js'
-import tvFail from './test-vectors-fail.js'
+import tvPass from './test-vectors-pass.js';
+import tvFail from './test-vectors-fail.js';
 import * as hex from '../lib/hex.js';
 import * as base64 from '../lib/base64.js';
 
