@@ -5,6 +5,7 @@ module.exports = {
     'eslint-config-digitalbazaar/jsdoc'
   ],
   env: {
+    es2020: true,
     node: true
   },
   ignorePatterns: ['dist/']
