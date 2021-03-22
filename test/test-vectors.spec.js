@@ -70,13 +70,16 @@ describe('CBOR', () => {
           'Insufficient data',
           'Invalid BREAK',
           'Invalid indefinite encoding',
+          'Invalid major type in indefinite encoding',
           'Invalid map length',
           'Invalid two-byte encoding of simple value',
           // FIXME
           '"parentBufferStream" not implemented.',
           // FIXME
           //'NoFilter is not defined'
-          'Unexpected data'
+          'Unexpected data',
+          // FIXME
+          'parent.write is not a function',
         ].join('|'), 'g'));
       });
     });
