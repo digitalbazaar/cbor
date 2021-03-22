@@ -1,8 +1,12 @@
-# Example Isomorphic JS Lib Template _(@digitalbazaar/isomorphic-js-lib-template)_
+# cbor _(@digitalbazaar/cbor)_
 
-[![Node.js CI](https://github.com/digitalbazaar/isomorphic-js-lib-template/workflows/Node.js%20CI/badge.svg)](https://github.com/digitalbazaar/isomorphic-js-lib-template/actions?query=workflow%3A%22Node.js+CI%22)
+[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/cbor/Node.js%20CI)](https://github.com/digitalbazaar/cbor/actions?query=workflow%3A%22Node.js+CI%22)
+[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/cbor)](https://codecov.io/gh/digitalbazaar/cbor)
+[![Dependency Status](https://img.shields.io/david/digitalbazaar/cbor.svg)](https://david-dm.org/digitalbazaar/cbor)
+[![NPM Version](https://img.shields.io/npm/v/digitalbazaar/cbor.svg)](https://npm.im/digitalbazaar/cbor)
 
-> A template skeleton repo for (non-Bedrock) JS libraries that run in Node.js and in the browser.
+> Encode and parse data in the Concise Binary Object Representation (CBOR) data
+> format defined in ([RFC7049](https://tools.ietf.org/html/rfc8949)).
 
 ## Table of Contents
 
@@ -18,6 +22,10 @@
 
 TBD
 
+This is a fork of [node-cbor](https://github.com/hildjj/node-cbor) with a
+limited feature set and targeted for easy isomorphic use in Node.js and
+browsers.
+
 ## Security
 
 TBD
@@ -26,11 +34,17 @@ TBD
 
 - Node.js 12+ is required.
 
-To install locally (for development):
+### NPM
 
 ```
-git clone https://github.com/digitalbazaar/isomorphic-js-lib-template.git
-cd isomorphic-js-lib-template
+npm install @digitalbazaar/cbor
+```
+
+### Development
+
+```
+git clone https://github.com/digitalbazaar/cbor.git
+cd cbor
 npm install
 ```
 
