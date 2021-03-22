@@ -71,28 +71,28 @@ export default
     "hex": "1bffffffffffffffff",
     "roundtrip": true,
     //"decoded": 18446744073709551615
-    "decoded": 18446744073709551615n
+    "decoded": BigInt("18446744073709551615")
   },
   {
     "cbor": "wkkBAAAAAAAAAAA=",
     "hex": "c249010000000000000000",
     "roundtrip": true,
-    //"decoded": 18446744073709551616n
-    "decoded": 18446744073709551616n
+    //"decoded": 18446744073709551616
+    "decoded": BigInt("18446744073709551616")
   },
   {
     "cbor": "O///////////",
     "hex": "3bffffffffffffffff",
     "roundtrip": true,
-    //"decoded": -18446744073709551616n
-    "decoded": -18446744073709551616n
+    //"decoded": -18446744073709551616
+    "decoded": BigInt("-18446744073709551616")
   },
   {
     "cbor": "w0kBAAAAAAAAAAA=",
     "hex": "c349010000000000000000",
     "roundtrip": true,
     //"decoded": -18446744073709551617
-    "decoded": -18446744073709551617n
+    "decoded": BigInt("-18446744073709551617")
   },
   {
     "cbor": "IA==",
