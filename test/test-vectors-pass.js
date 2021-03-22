@@ -200,55 +200,64 @@ export default
     "cbor": "+XwA",
     "hex": "f97c00",
     "roundtrip": true,
-    "diagnostic": "Infinity"
+    //"diagnostic": "Infinity"
+    "decoded": Infinity
   },
   {
     "cbor": "+X4A",
     "hex": "f97e00",
     "roundtrip": true,
-    "diagnostic": "NaN"
+    //"diagnostic": "NaN"
+    "decoded": NaN
   },
   {
     "cbor": "+fwA",
     "hex": "f9fc00",
     "roundtrip": true,
-    "diagnostic": "-Infinity"
+    //"diagnostic": "-Infinity"
+    "decoded": -Infinity
   },
   {
     "cbor": "+n+AAAA=",
     "hex": "fa7f800000",
     "roundtrip": false,
-    "diagnostic": "Infinity"
+    //"diagnostic": "Infinity"
+    "decoded": Infinity
   },
   {
     "cbor": "+n/AAAA=",
     "hex": "fa7fc00000",
     "roundtrip": false,
-    "diagnostic": "NaN"
+    //"diagnostic": "NaN"
+    "decoded": NaN
   },
   {
     "cbor": "+v+AAAA=",
     "hex": "faff800000",
     "roundtrip": false,
-    "diagnostic": "-Infinity"
+    //"diagnostic": "-Infinity"
+    "decoded": -Infinity
   },
   {
     "cbor": "+3/wAAAAAAAA",
     "hex": "fb7ff0000000000000",
     "roundtrip": false,
-    "diagnostic": "Infinity"
+    //"diagnostic": "Infinity"
+    "decoded": Infinity
   },
   {
     "cbor": "+3/4AAAAAAAA",
     "hex": "fb7ff8000000000000",
     "roundtrip": false,
-    "diagnostic": "NaN"
+    //"diagnostic": "NaN"
+    "decoded": NaN
   },
   {
     "cbor": "+//wAAAAAAAA",
     "hex": "fbfff0000000000000",
     "roundtrip": false,
-    "diagnostic": "-Infinity"
+    //"diagnostic": "-Infinity"
+    "decoded": -Infinity
   },
   {
     "cbor": "9A==",
@@ -272,7 +281,8 @@ export default
     "cbor": "9w==",
     "hex": "f7",
     "roundtrip": true,
-    "diagnostic": "undefined"
+    //"diagnostic": "undefined"
+    "decoded": undefined
   },
   {
     "cbor": "8A==",
