@@ -16,7 +16,7 @@
     "url": "https://github.com/digitalbazaar/isomorphic-js-lib-template/issues",
     "email": "support@digitalbazaar.com"
   },
-  "license": "BSD-3-Clause",
+  "license": "(MIT AND BSD-3-Clause)",
   "files": [
     "lib/*.js"
   ],
