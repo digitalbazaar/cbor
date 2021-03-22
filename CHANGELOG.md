@@ -1,6 +1,6 @@
-# isomorphic-js-lib-template Changelog
+# @digitalbazaar/cbor Changelog
 
 ## 1.0.0 - TBD
 
 ### Added
-- Initial commit.
+- Initial version.
