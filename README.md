@@ -3,7 +3,7 @@
 [![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/cbor/Node.js%20CI)](https://github.com/digitalbazaar/cbor/actions?query=workflow%3A%22Node.js+CI%22)
 [![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/cbor)](https://codecov.io/gh/digitalbazaar/cbor)
 [![Dependency Status](https://img.shields.io/david/digitalbazaar/cbor.svg)](https://david-dm.org/digitalbazaar/cbor)
-[![NPM Version](https://img.shields.io/npm/v/digitalbazaar/cbor.svg)](https://npm.im/digitalbazaar/cbor)
+[![NPM Version](https://img.shields.io/npm/v/digitalbazaar/cbor.svg)](https://npm.im/@digitalbazaar/cbor)
 
 > Encode and parse data in the Concise Binary Object Representation (CBOR) data
 > format defined in ([RFC7049](https://tools.ietf.org/html/rfc8949)).
