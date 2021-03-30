@@ -1,5 +1,10 @@
 # @digitalbazaar/cbor Changelog
 
+## 1.0.2 - 2020-03-30
+
+### Fixed
+- 
+
 ## 1.0.1 - 2020-03-22
 
 ### Fixed
