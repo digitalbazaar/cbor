@@ -1,9 +1,10 @@
 # @digitalbazaar/cbor Changelog
 
-## 1.0.2 - 2020-03-30
+## 1.1.0 - 2020-03-30
 
-### Fixed
-- 
+### Changed
+- Fix Byte Order Mark default during text decoding (was causing a hideous error
+  on Safari downstream).
 
 ## 1.0.1 - 2020-03-22
 
